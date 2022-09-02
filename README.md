@@ -9,7 +9,7 @@ require "./rubylizer"
 fun init="Init_nameOfYourAwesomeExtension"; end
 
 addGlobalMethod "foo", 4 do |r, who, amount, what, pluralSuffix|  
- "#{v who} ate #{v amount} #{v what}#{v pluralSuffix unless v(amount)==1}!"  
+ v "#{v who} ate #{v amount} #{v what}#{v pluralSuffix unless v(amount)==1}!"  
 end
 ```
 
