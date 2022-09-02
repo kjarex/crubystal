@@ -21,34 +21,34 @@ puts foo "I", 5, "doughnut", "s"
 ```
 
 Thia project just started and it's still a work in progress - so far you can  
-[ ] define global variables  
-[ ] add methods  
-[x] add global methods  
-[-] define alias\*  
-[-] undefine methods\*  
-[ ] define constants  
-[ ] define global constants  
-[ ] add modules  
-[-] call ruby methods\*   
-[-] raise\*  
-[-] access variables on your own\*  
+- [ ] define global variables  
+- [ ] add methods  
+- [x] add global methods  
+- [ ] ~~define alias~~[^1]  
+- [ ] ~~undefine methods~~[^1]    
+- [ ] define constants  
+- [ ] define global constants  
+- [ ] add modules  
+- [ ] ~~call ruby methods~~[^1]     
+- [ ] ~~raise~~[^1]    
+- [ ] ~~access variables on your own~~[^1]    
 
-\*:  uncertain if those are even worth/useful to implement;  
+[^1]:  uncertain if those are even worth/useful to implement;  
      if there is a good reason to implement those, they could get reconsidered  
     
 and receive data of types  
-[x] Nil  
-[x] True  
-[x] False  
-[ ] Symbols  
-[x] String up to a length of  
-[x] 23 bytes  
-    [x] 18446744073709551616 bytes  
-[o] Integer (signed and unsigned)  
-    [x] 63 bytes  
-    [ ] unlimited  
-[o] Float (signed and unsigned)  
-    [x] 62 bytes  
-    [ ] unlimited      
-[ ] Arrays  
-[ ] Hashes  
+- [x] Nil  
+- [x] True  
+- [x] False  
+- [ ] Symbols  
+- [x] String up to a length of  
+    - [x] 23 bytes  
+    - [x] 18446744073709551616 bytes  
+- [ ] Integer (signed and unsigned)  
+    - [x] 63 bytes  
+    - [ ] unlimited  
+- [ ] Float (signed and unsigned)  
+    - [x] 62 bytes  
+    - [ ] unlimited      
+- [ ] Arrays  
+- [ ] Hashes  
