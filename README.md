@@ -8,7 +8,7 @@ with less suffering while doing do so.
 require "./rubylizer"
 fun init="Init_nameOfYourAwesomeExtension"; end
 
-addGlobalMethod "foo", 1 do |r, who, amount, pluralSuffix|  
+addGlobalMethod "foo", 4 do |r, who, amount, pluralSuffix|  
  "#{who} ate #{amount} #{what}#{pluralSuffix unless amount==1}!"  
 end
 ```
