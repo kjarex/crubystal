@@ -1,11 +1,11 @@
-Rubylizer allows you to write your ruby extensions in [Crystal](https://crystal-lang.org).
+crubystal allows you to write your ruby extensions in [Crystal](https://crystal-lang.org).
 
 With Crystal's very similar syntax and great performance you can swap just those parts which need it,
 with less suffering while doing do so.
 
 ```crystal
 # yourCodeFile.cr
-require "./rubylizer"
+require "./crubystal"
 fun init="Init_nameOfYourAwesomeExtension"; end
 
 addGlobalMethod "foo", 4 do |r, who, amount, what, pluralSuffix|  
@@ -40,7 +40,7 @@ and receive data of types
 - [x] Nil  
 - [x] True  
 - [x] False  
-- [ ] Symbols  
+- [x] Symbols[^2]    
 - [x] String up to a length of  
     - [x] 23 bytes  
     - [x] 18446744073709551616 bytes  
@@ -50,5 +50,6 @@ and receive data of types
 - [ ] Float (signed and unsigned)  
     - [x] 62 bytes  
     - [ ] unlimited      
-- [ ] Arrays  
+- [X] Arrays  
 - [ ] Hashes  
+[^2]:  Crystal doesn't have symbols (at least not in the way we know and love symbols. Therefor crubystal offers its own type of symbols - for crubystal purposes only use the "symbol".to_sym syntax within Crystal and everything will work as you would expect
