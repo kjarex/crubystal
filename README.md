@@ -1,4 +1,6 @@
-crubystal allows you to write your ruby extensions in [Crystal](https://crystal-lang.org).
+![text](crubystal.png)
+
+crubystal allows you to write your [ruby](https://ruby-lang.org) extensions in [Crystal](https://crystal-lang.org).
 
 With Crystal's very similar syntax and great performance you can swap just those parts which need it,
 with less suffering while doing do so.
