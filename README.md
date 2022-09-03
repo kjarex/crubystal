@@ -46,10 +46,10 @@ and receive data of types
 - [x] String up to a length of  
     - [x] 23 bytes  
     - [x] 18446744073709551616 bytes  
-- [ ] Integer (signed and unsigned)  
+- [ ] Integer (signed and unsigned) of up to 
     - [x] 63 bytes  
     - [ ] unlimited  
-- [ ] Float (signed and unsigned)  
+- [ ] Float (signed and unsigned) of up to 
     - [x] 62 bytes  
     - [ ] unlimited      
 - [X] Arrays  
