@@ -32,7 +32,7 @@ Thia project just started and it's still a work in progress - so far you can
 - [ ] define global constants  
 - [ ] add modules  
 - [ ] ~~call ruby methods~~[^1]     
-- [ ] ~~raise~~[^1]    
+- [ ] raise    
 - [ ] ~~access variables on your own~~[^1]    
 
 [^1]:  uncertain if those are even worth/useful to implement;  
