@@ -54,4 +54,4 @@ and receive data of types
     - [x] unlimited      
 - [x] Arrays  
 - [x] Hashes  
-[^2]:  Crystal doesn't have symbols (at least not in the way we know and love symbols. Therefor crubystal offers its own type of symbols - for crubystal purposes only use the "symbol".to_sym syntax within Crystal and everything will work as you would expect
+[^2]:  Crystal doesn't have symbols (at least not in the way we know and love symbols). Therefor crubystal offers its own type of symbols - for crubystal purposes only use the "symbol".to_sym syntax within Crystal and everything will work as you would expect
