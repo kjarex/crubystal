@@ -46,12 +46,12 @@ and receive data of types
 - [x] String up to a length of  
     - [x] 23 bytes  
     - [x] 18446744073709551616 bytes  
-- [ ] Integer (signed and unsigned) of up to 
+- [x] Integer (signed and unsigned) of up to 
     - [x] 63 bytes  
-    - [ ] unlimited  
-- [ ] Float (signed and unsigned) of up to 
+    - [x] unlimited  
+- [x] Float (signed and unsigned) of up to 
     - [x] 62 bytes  
-    - [ ] unlimited      
-- [X] Arrays  
-- [X] Hashes  
+    - [x] unlimited      
+- [x] Arrays  
+- [x] Hashes  
 [^2]:  Crystal doesn't have symbols (at least not in the way we know and love symbols. Therefor crubystal offers its own type of symbols - for crubystal purposes only use the "symbol".to_sym syntax within Crystal and everything will work as you would expect
