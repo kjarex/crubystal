@@ -54,4 +54,4 @@ and receive data of types
     - [x] unlimited      
 - [x] Arrays  
 - [x] Hashes  
-[^2]: In order to create symbols in Crystal at runtime there is the somewhat hacky shard/module symbolx required. You should not create more than 2^31 symbols to stay on the safe side, although you likely will be safe for almost 2**32 symbols. Just keep that in mind. If you want to be 100% safe, stay in ruby, if you want to be safer than what I'm offering out of the box, don't send symbols to your crubystal extension. But there really should no need to worry for up to 2^31 symbols either. 
+[^2]: In order to create symbols in Crystal at runtime there is the somewhat hacky shard/module symbolx required. You should not create more than 2^31 symbols to stay on the safe side, although you likely will be safe for almost 2^32 symbols. Just keep that in mind. If you want to be 100% safe, stay in ruby, if you want to be safer than what I'm offering out of the box, don't send symbols to your crubystal extension. But there really should no need to worry for up to 2^31 symbols either. 
